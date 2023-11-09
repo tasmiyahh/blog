@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar>ul{
+    display: flex;
+
+}
+
+.navbar>ul>li{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: large;
+
+    
+}
+
+.navbar>ul>li>a{
+    border: 1px solid white;
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: green;
+}
+
+
+
+
+.navbar>ul>li:hover{
+    text-shadow:0 0 wheat, 0 0 5px white;
+
+}
